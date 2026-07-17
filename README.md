@@ -55,7 +55,6 @@ The number of available and occupied spots is then shown on a screen at the park
 
 ```
 ├── best.pt              # Trained model weights
-├── parking_mvp.html      # Interactive MVP prototype
 ├── parking.ipynb         # Training notebook (Google Colab)
 ├── images/
 │   ├── display-example.jpg   # Reference for the target display device
