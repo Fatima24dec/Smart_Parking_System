@@ -33,13 +33,13 @@ The number of available and occupied spots is then shown on a screen at the park
 
 **1. Target design for the display device (reference only — not yet implemented)**
 
-![Smart display example](smart-displayjpg)
+![Smart display example](images\smart-displayjpg)
 
 > This is a reference image showing the intended final look of the display device at the security gate. The physical device has not been installed yet — building it is part of the next step, after connecting the model to a real camera.
 
 **2. Real detection result from the trained model**
 
-![Model detection result](detection-result.png)
+![Model detection result](images\detection-result.png)
 
 > This is an actual result from the trained YOLOv8 model, showing its ability to distinguish occupied spots (blue) from empty spots (cyan) with high confidence on a real parking lot image.
 
