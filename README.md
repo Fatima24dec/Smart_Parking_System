@@ -18,15 +18,14 @@ During peak hours, drivers spend a long time searching for a parking spot, which
 
 The system continuously monitors all parking spots and classifies each one as:
 
-- 🟢 Empty
-- 🔴 Occupied
+-  Empty
+- Occupied
 
 The number of available and occupied spots is then shown on a screen at the parking entrance, so drivers know the parking status before entering — reducing unnecessary movement inside the lot.
 
 ## Current Project Status
 
-- ✅ **Detection model (YOLOv8) is trained and ready** — trained on real parking data, and accurately distinguishes empty from occupied spots (mAP50 ≈ 0.97).
-- ✅ **Interactive prototype (MVP)** that simulates the system concept and the display screen.
+-  **Detection model (YOLOv8) is trained and ready** — trained on real parking data, and accurately distinguishes empty from occupied spots (mAP50 ≈ 0.97).
 - ⏳ **The physical display device at the security gate has not been built or installed yet** — there is currently no real camera or device connected to the model.
 - 🔜 **Next step:** install a real camera in the parking lot, connect it to the trained model, then set up an actual display device that receives the results and shows them live.
 
@@ -34,13 +33,13 @@ The number of available and occupied spots is then shown on a screen at the park
 
 **1. Target design for the display device (reference only — not yet implemented)**
 
-![Smart display example](images/display-example.jpg)
+![Smart display example](C:\Users\hmood\OneDrive\الصور\سطح المكتب\Picture1.jpg)
 
 > This is a reference image showing the intended final look of the display device at the security gate. The physical device has not been installed yet — building it is part of the next step, after connecting the model to a real camera.
 
 **2. Real detection result from the trained model**
 
-![Model detection result](images/model-output.jpg)
+![Model detection result](C:\Users\hmood\OneDrive\الصور\سطح المكتب\Screenshot 2026-07-17 152114.png)
 
 > This is an actual result from the trained YOLOv8 model, showing its ability to distinguish occupied spots (blue) from empty spots (cyan) with high confidence on a real parking lot image.
 
